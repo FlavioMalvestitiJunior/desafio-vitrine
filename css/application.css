@@ -1,0 +1,152 @@
+/* Global */
+html {
+  font-size: 100% !important;
+}
+body {
+  background: #3399cc;
+  padding: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -ms-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+a:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+  filter: alpha(opacity=50); /* IE7 */
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* Container */
+.container {
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 20px 40px 50px;
+  max-width: 1280px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Header */
+.page-header {
+  background: #f9f9f9;
+  margin: -30px -40px 40px;
+  padding: 20px 40px;
+  border-top: 4px solid #ccc;
+  color: #999;
+  text-transform: uppercase;
+}
+.page-header h3 {
+  line-height: 0.88rem;
+  color: #000;
+}
+
+/* Boxes
+------------------------------------------------ */
+
+/* List style */
+ul.thumbnails {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.caption-box h4 {
+  font-size: 0.94rem;
+  color: #444;
+}
+.caption-box p {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+/* Control box 
+------------------------------------------------ */
+.control-box {
+  width: 100%;
+}
+.slider-control {
+  background: #666 !important;
+  border: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  font-size: 34px;
+  font-weight: 200;
+  line-height: 18px;
+  opacity: 0.5;
+  padding: 4px 10px;
+  margin: 30px -20px 0;
+  height: 30px;
+  width: 30px;
+}
+
+/* Mobile only
+------------------------------------------------ */
+@media (max-width: 767px) {
+  .page-header {
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  .caption-box {
+    word-break: break-all;
+  }
+  ul.thumbnails li {
+    margin-bottom: 30px;
+  }
+}
+
+/* Footer 
+------------------------------------------------ */
+footer.info {
+  text-align: center;
+  color: #888;
+  margin: 30px 0;
+}
+footer.info a {
+  color: #fff;
+}
+footer.info p {
+  color: #ccc;
+  margin: 10px 0;
+}
+
+a,
+a:focus,
+a:active,
+a:hover,
+object,
+embed {
+  outline: none;
+}
+:-moz-any-link:focus {
+  outline: none;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+.fadeOut {
+  opacity: 0;
+  transition: 1s;
+}
+.hide {
+  display: none;
+}
+.alert {
+  color: rgb(179, 33, 33);
+}
+.alert-small {
+  color: rgb(179, 33, 33);
+  font-size: 10pt;
+}
+.old-price {
+  color: #000;
+  font-size: 10pt;
+}
